@@ -1,0 +1,15 @@
+{
+  "name": "J&T Helper",
+  "short_name": "J&T",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ce1212",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

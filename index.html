@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="icon.png">
+
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <title>J&T Order Helper</title>
+
+</head>
+<body>
+
+    <h2>J&T Formatter</h2>
+
+    <textarea id="userInput" placeholder="Paste customer message here..."></textarea>
+
+    <div class="button-group">
+        <button class="btn-clean" onclick="processText()">CLEAN TEXT</button>
+        <button class="btn-clear" onclick="clearAll()">CLEAR ALL</button>
+    </div>
+
+    <div class="result-section">
+        <div class="label">Detected Phone Number:</div>
+        <div id="outPhone" class="output-box">---</div>
+        <button class="btn-copy" onclick="copyText('outPhone')">Copy Number</button>
+    </div>
+
+    <div class="result-section">
+        <div class="label">Cleaned Name/Address:</div>
+        <div id="outGeneral" class="output-box">---</div>
+        <button class="btn-copy" onclick="copyText('outGeneral')">Copy Full Text</button>
+    </div>
+
+
+</body>
+</html>
