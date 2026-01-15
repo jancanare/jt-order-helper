@@ -1,6 +1,6 @@
 {
-  "name": "J&T Helper",
-  "short_name": "J&T",
+  "name": "J&T Order Helper",
+  "short_name": "J&T Helper",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
